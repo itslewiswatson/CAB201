@@ -1,0 +1,13 @@
+Registration,Grade,Make,Model,Year,NumSeats,Transmission,Fuel,GPS,SunRoof,DailyRate,Colour
+851VOJ,Economy,BMW,Fiero 2M4,1985,2,Manual,Petrol,False,False,37.1,Black
+169FBE,Economy,BMW,Fiero 2M4,1985,2,Manual,Petrol,False,False,48.8,Black
+602VVZ,Economy,BMW,Fiero 2M4,1987,2,Manual,Petrol,False,False,37.9,Red
+993QAN,Commercial,BMW,3000 GT VR-4,1991,2,Manual,Petrol,False,False,37.8,Red
+509XRK,Commercial,BMW,Dakota,2002,4,Manual,Diesel,True,False,45.5,Blue
+471XBI,Luxury,BMW,Tahoe,1996,8,Automatic,Petrol,True,True,38,Black
+682GWJ,Luxury,BMW,A4,1997,5,Manual,Petrol,False,False,46.1,Blue
+519YUY,Family,BMW,Durango,2006,7,Automatic,Diesel,True,True,46.8,Blue
+567RKQ,Commercial,toyota,subaru,2001,4,Manual,Diesel,False,False,130,black
+876GGG,Luxury,dhdh,djhdjdj,1944,4,Manual,Petrol,True,True,120,black
+888AAA,Commercial,QUT,Express,1966,6,Automatic,Petrol,False,False,98.8,Yellow
+236SWE,Commercial,goop,goop,2001,4,Manual,Petrol,False,False,80,Black

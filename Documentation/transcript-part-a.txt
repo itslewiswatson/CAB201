@@ -1,0 +1,637 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200512210541
+Username: NOKIZORQUE-PC\lewis
+RunAs User: NOKIZORQUE-PC\lewis
+Configuration Name: 
+Machine: NOKIZORQUE-PC (Microsoft Windows NT 10.0.19624.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 11440
+PSVersion: 5.1.19624.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19624.1000
+BuildVersion: 10.0.19624.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is transcript.txt
+PS C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\bin\Debug> .\MRRCManagement.exe
+MATES RATES RENT-A-CAR
+Where you rent a car for cheap and don't even need to return it with a full tank
+
+Press 'q' to quit and save. Press 'h' to go home to the main menu. Press 'p' to go to the parent menu.
+
+Let's begin, what's your name?
+$ Jeremy Clarkson
+
+Welcome to MMRC, Jeremy Clarkson
+
+Enter a number to select a function from the list below:
+
+1) Customer Management
+2) Fleet Management
+
+Jeremy Clarkson@MMRC$ 1
+
+Please select a number below:
+
+1) View All Customers
+2) Add Customer
+3) Edit Customer
+4) Delete Customer
+
+Jeremy Clarkson@MMRC$ 1
+
+-------------------------------------------------------------------------------------------
+|      ID      |    Title     |  First Name  |  Last Name   |    Gender    |     DOB      |
+-------------------------------------------------------------------------------------------
+|      96      |      mr      |    lewis     |     kkf      |     Male     |  18/07/1994  |
+|      3       |      Mx      |     Drew     |   Muhammad   |    Other     |  17/12/1989  |
+|      4       |     Mrs      |     Drew     |    Waters    |    Female    |  27/04/1979  |
+|      5       |      Mr      |     Drew     | Kristiansen  |     Male     |  01/06/1976  |
+|     555      |     Lord     |    Ayrton    |    Senna     |    Female    |  01/05/1994  |
+|      7       |     Mrs      |     Drew     |    Gabor     |    Female    |  31/03/1976  |
+|      8       |     Lady     |     Drew     |  Rothenberg  |    Female    |  06/02/1966  |
+|      9       |      Dr      |     Drew     |   Allaway    |     Male     |  10/09/1957  |
+|      22      |    Madam     |     Drew     |    Watson    |    Female    |  30/04/2020  |
+|     666      |     osos     |    slslsl    |    slslsl    |     Male     |  12/04/2000  |
+|     668      |      Dr      |    Lewis     |    Watson    |    Other     |  08/08/1945  |
+-------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View All Customers
+2) Add Customer
+3) Edit Customer
+4) Delete Customer
+
+Jeremy Clarkson@MMRC$ 2
+
+Please fill out the following fields (* = required):
+
+Title*:
+First Name*:
+Last Name*:
+Gender (male, female or other)*:
+DoB (dd/mm/yyyy)*:
+
+Gender must be 'male', 'female', or 'other'
+
+Please select a number below:
+
+1) View All Customers
+2) Add Customer
+3) Edit Customer
+4) Delete Customer
+
+Jeremy Clarkson@MMRC$ 2
+
+Please fill out the following fields (* = required):
+
+Title*: Sir
+First Name*: Lord
+Last Name*: Man
+Gender (male, female or other)*: other
+DoB (dd/mm/yyyy)*: 04/04/2004
+
+Added new customer Lord Man (ID = 669) to the MRRC CRM.
+
+Please select a number below:
+
+1) View All Customers
+2) Add Customer
+3) Edit Customer
+4) Delete Customer
+
+Jeremy Clarkson@MMRC$ 1
+
+-------------------------------------------------------------------------------------------
+|      ID      |    Title     |  First Name  |  Last Name   |    Gender    |     DOB      |
+-------------------------------------------------------------------------------------------
+|      96      |      mr      |    lewis     |     kkf      |     Male     |  18/07/1994  |
+|      3       |      Mx      |     Drew     |   Muhammad   |    Other     |  17/12/1989  |
+|      4       |     Mrs      |     Drew     |    Waters    |    Female    |  27/04/1979  |
+|      5       |      Mr      |     Drew     | Kristiansen  |     Male     |  01/06/1976  |
+|     555      |     Lord     |    Ayrton    |    Senna     |    Female    |  01/05/1994  |
+|      7       |     Mrs      |     Drew     |    Gabor     |    Female    |  31/03/1976  |
+|      8       |     Lady     |     Drew     |  Rothenberg  |    Female    |  06/02/1966  |
+|      9       |      Dr      |     Drew     |   Allaway    |     Male     |  10/09/1957  |
+|      22      |    Madam     |     Drew     |    Watson    |    Female    |  30/04/2020  |
+|     666      |     osos     |    slslsl    |    slslsl    |     Male     |  12/04/2000  |
+|     668      |      Dr      |    Lewis     |    Watson    |    Other     |  08/08/1945  |
+|     669      |     Sir      |     Lord     |     Man      |    Other     |  04/04/2004  |
+-------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View All Customers
+2) Add Customer
+3) Edit Customer
+4) Delete Customer
+
+Jeremy Clarkson@MMRC$ 2
+
+Please fill out the following fields (* = required):
+
+Title*: aaa
+First Name*: aaa
+Last Name*: aaa
+Gender (male, female or other)*: zoidberg
+DoB (dd/mm/yyyy)*:
+
+Gender must be 'male', 'female', or 'other'
+
+Please select a number below:
+
+1) View All Customers
+2) Add Customer
+3) Edit Customer
+4) Delete Customer
+
+Jeremy Clarkson@MMRC$
+
+Please select a number below:
+
+1) View All Customers
+2) Add Customer
+3) Edit Customer
+4) Delete Customer
+
+Jeremy Clarkson@MMRC$ 3
+
+Please enter the ID of the customer to edit, followed by the new data (leave blank to retain current information):
+
+Customer ID: 668
+New ID (leave blank for current): 669
+Title:
+First Name:
+Last Name:
+Gender (male, female or other):
+DoB (dd/mm/yyyy):
+
+Customer with ID 668 already exists. Please choose a different ID.
+
+Please select a number below:
+
+1) View All Customers
+2) Add Customer
+3) Edit Customer
+4) Delete Customer
+
+Jeremy Clarkson@MMRC$ 3
+
+Please enter the ID of the customer to edit, followed by the new data (leave blank to retain current information):
+
+Customer ID: 668
+New ID (leave blank for current): 734
+Title:
+First Name:
+Last Name:
+Gender (male, female or other):
+DoB (dd/mm/yyyy):
+
+Successfully edited customer Lewis Watson (ID = 734).
+
+Please select a number below:
+
+1) View All Customers
+2) Add Customer
+3) Edit Customer
+4) Delete Customer
+
+Jeremy Clarkson@MMRC$ 1
+
+-------------------------------------------------------------------------------------------
+|      ID      |    Title     |  First Name  |  Last Name   |    Gender    |     DOB      |
+-------------------------------------------------------------------------------------------
+|      96      |      mr      |    lewis     |     kkf      |     Male     |  18/07/1994  |
+|      3       |      Mx      |     Drew     |   Muhammad   |    Other     |  17/12/1989  |
+|      4       |     Mrs      |     Drew     |    Waters    |    Female    |  27/04/1979  |
+|      5       |      Mr      |     Drew     | Kristiansen  |     Male     |  01/06/1976  |
+|     555      |     Lord     |    Ayrton    |    Senna     |    Female    |  01/05/1994  |
+|      7       |     Mrs      |     Drew     |    Gabor     |    Female    |  31/03/1976  |
+|      8       |     Lady     |     Drew     |  Rothenberg  |    Female    |  06/02/1966  |
+|      9       |      Dr      |     Drew     |   Allaway    |     Male     |  10/09/1957  |
+|      22      |    Madam     |     Drew     |    Watson    |    Female    |  30/04/2020  |
+|     666      |     osos     |    slslsl    |    slslsl    |     Male     |  12/04/2000  |
+|     734      |      Dr      |    Lewis     |    Watson    |    Other     |  08/08/1945  |
+|     669      |     Sir      |     Lord     |     Man      |    Other     |  04/04/2004  |
+-------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View All Customers
+2) Add Customer
+3) Edit Customer
+4) Delete Customer
+
+Jeremy Clarkson@MMRC$ 4
+
+Please enter the ID of the customer you want to delete:
+
+Customer ID: 1
+
+Customer with ID = '1' does not exist.
+
+Please select a number below:
+
+1) View All Customers
+2) Add Customer
+3) Edit Customer
+4) Delete Customer
+
+Jeremy Clarkson@MMRC$ 4
+
+Please enter the ID of the customer you want to delete:
+
+Customer ID: 3
+
+Successfully removed customer Drew Muhammad (ID = 3) from the MRRC CRM.
+
+Please select a number below:
+
+1) View All Customers
+2) Add Customer
+3) Edit Customer
+4) Delete Customer
+
+Jeremy Clarkson@MMRC$ 1
+
+-------------------------------------------------------------------------------------------
+|      ID      |    Title     |  First Name  |  Last Name   |    Gender    |     DOB      |
+-------------------------------------------------------------------------------------------
+|      96      |      mr      |    lewis     |     kkf      |     Male     |  18/07/1994  |
+|      4       |     Mrs      |     Drew     |    Waters    |    Female    |  27/04/1979  |
+|      5       |      Mr      |     Drew     | Kristiansen  |     Male     |  01/06/1976  |
+|     555      |     Lord     |    Ayrton    |    Senna     |    Female    |  01/05/1994  |
+|      7       |     Mrs      |     Drew     |    Gabor     |    Female    |  31/03/1976  |
+|      8       |     Lady     |     Drew     |  Rothenberg  |    Female    |  06/02/1966  |
+|      9       |      Dr      |     Drew     |   Allaway    |     Male     |  10/09/1957  |
+|      22      |    Madam     |     Drew     |    Watson    |    Female    |  30/04/2020  |
+|     666      |     osos     |    slslsl    |    slslsl    |     Male     |  12/04/2000  |
+|     734      |      Dr      |    Lewis     |    Watson    |    Other     |  08/08/1945  |
+|     669      |     Sir      |     Lord     |     Man      |    Other     |  04/04/2004  |
+-------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View All Customers
+2) Add Customer
+3) Edit Customer
+4) Delete Customer
+
+Jeremy Clarkson@MMRC$ p
+
+Enter a number to select a function from the list below:
+
+1) Customer Management
+2) Fleet Management
+
+Jeremy Clarkson@MMRC$ 2
+
+Please select a number below:
+
+1) View Fleet
+2) Add Vehicle
+3) Edit Vehicle
+4) Delete Vehicle
+
+Jeremy Clarkson@MMRC$ 1
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Registration |    Grade     |     Make     |    Model     |     Year     |  Num Seats   | Transmission |     Fuel     |     GPS      |   Sunroof    |  Daily Rate  |    Colour    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|    851VOJ    |   Economy    |     BMW      |  Fiero 2M4   |     1985     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.1     |    Black     |
+|    169FBE    |   Economy    |     BMW      |  Fiero 2M4   |     1985     |      2       |    Manual    |    Petrol    |    False     |    False     |     48.8     |    Black     |
+|    602VVZ    |   Economy    |     BMW      |  Fiero 2M4   |     1987     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.9     |     Red      |
+|    993QAN    |  Commercial  |     BMW      | 3000 GT VR-4 |     1991     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.8     |     Red      |
+|    509XRK    |  Commercial  |     BMW      |    Dakota    |     2002     |      4       |    Manual    |    Diesel    |     True     |    False     |     45.5     |     Blue     |
+|    471XBI    |    Luxury    |     BMW      |    Tahoe     |     1996     |      8       |  Automatic   |    Petrol    |     True     |     True     |      38      |    Black     |
+|    682GWJ    |    Luxury    |     BMW      |      A4      |     1997     |      5       |    Manual    |    Petrol    |    False     |    False     |     46.1     |     Blue     |
+|    677UIA    |   Economy    |     BMW      |      S4      |     2004     |      5       |    Manual    |    Petrol    |    False     |    False     |     43.3     |     Blue     |
+|    519YUY    |    Family    |     BMW      |   Durango    |     2006     |      7       |  Automatic   |    Diesel    |     True     |     True     |     46.8     |     Blue     |
+|    567RKQ    |  Commercial  |    toyota    |    subaru    |     2001     |      4       |    Manual    |    Diesel    |    False     |    False     |     130      |    black     |
+|    876GGG    |    Luxury    |     dhdh     |   djhdjdj    |     1944     |      4       |    Manual    |    Petrol    |     True     |     True     |     120      |    black     |
+|    888AAA    |  Commercial  |     QUT      |   Express    |     1966     |      6       |  Automatic   |    Petrol    |    False     |    False     |     98.8     |    Yellow    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View Fleet
+2) Add Vehicle
+3) Edit Vehicle
+4) Delete Vehicle
+
+Jeremy Clarkson@MMRC$ 2
+
+Please fill out the following fields (* = required):
+
+Registration*: 888AAA
+Grade*: commercial
+Make*: shsh
+Model*: shshhs
+Year*: 2001
+Num Seats (2 - 10):
+Transmission (automatic or manual):
+Petrol (petrol or diesel):
+GPS (yes or no):
+Sunroof (yes or no):
+Daily Rate (eg: 50, 78.65, etc):
+Colour:
+
+This registration (888AAA) is already in use. Please choose another.
+
+Please select a number below:
+
+1) View Fleet
+2) Add Vehicle
+3) Edit Vehicle
+4) Delete Vehicle
+
+Jeremy Clarkson@MMRC$ 1
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Registration |    Grade     |     Make     |    Model     |     Year     |  Num Seats   | Transmission |     Fuel     |     GPS      |   Sunroof    |  Daily Rate  |    Colour    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|    851VOJ    |   Economy    |     BMW      |  Fiero 2M4   |     1985     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.1     |    Black     |
+|    169FBE    |   Economy    |     BMW      |  Fiero 2M4   |     1985     |      2       |    Manual    |    Petrol    |    False     |    False     |     48.8     |    Black     |
+|    602VVZ    |   Economy    |     BMW      |  Fiero 2M4   |     1987     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.9     |     Red      |
+|    993QAN    |  Commercial  |     BMW      | 3000 GT VR-4 |     1991     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.8     |     Red      |
+|    509XRK    |  Commercial  |     BMW      |    Dakota    |     2002     |      4       |    Manual    |    Diesel    |     True     |    False     |     45.5     |     Blue     |
+|    471XBI    |    Luxury    |     BMW      |    Tahoe     |     1996     |      8       |  Automatic   |    Petrol    |     True     |     True     |      38      |    Black     |
+|    682GWJ    |    Luxury    |     BMW      |      A4      |     1997     |      5       |    Manual    |    Petrol    |    False     |    False     |     46.1     |     Blue     |
+|    677UIA    |   Economy    |     BMW      |      S4      |     2004     |      5       |    Manual    |    Petrol    |    False     |    False     |     43.3     |     Blue     |
+|    519YUY    |    Family    |     BMW      |   Durango    |     2006     |      7       |  Automatic   |    Diesel    |     True     |     True     |     46.8     |     Blue     |
+|    567RKQ    |  Commercial  |    toyota    |    subaru    |     2001     |      4       |    Manual    |    Diesel    |    False     |    False     |     130      |    black     |
+|    876GGG    |    Luxury    |     dhdh     |   djhdjdj    |     1944     |      4       |    Manual    |    Petrol    |     True     |     True     |     120      |    black     |
+|    888AAA    |  Commercial  |     QUT      |   Express    |     1966     |      6       |  Automatic   |    Petrol    |    False     |    False     |     98.8     |    Yellow    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View Fleet
+2) Add Vehicle
+3) Edit Vehicle
+4) Delete Vehicle
+
+Jeremy Clarkson@MMRC$ 2
+
+Please fill out the following fields (* = required):
+
+Registration*: 236SWE
+Grade*: family
+Make*: goop
+Model*: goop
+Year*: 2001
+Num Seats (2 - 10):
+Transmission (automatic or manual):
+Petrol (petrol or diesel):
+GPS (yes or no):
+Sunroof (yes or no):
+Daily Rate (eg: 50, 78.65, etc):
+Colour:
+
+Successfully added a 2001 goop goop (registration = 236SWE) to the fleet.
+
+Please select a number below:
+
+1) View Fleet
+2) Add Vehicle
+3) Edit Vehicle
+4) Delete Vehicle
+
+Jeremy Clarkson@MMRC$ 1
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Registration |    Grade     |     Make     |    Model     |     Year     |  Num Seats   | Transmission |     Fuel     |     GPS      |   Sunroof    |  Daily Rate  |    Colour    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|    851VOJ    |   Economy    |     BMW      |  Fiero 2M4   |     1985     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.1     |    Black     |
+|    169FBE    |   Economy    |     BMW      |  Fiero 2M4   |     1985     |      2       |    Manual    |    Petrol    |    False     |    False     |     48.8     |    Black     |
+|    602VVZ    |   Economy    |     BMW      |  Fiero 2M4   |     1987     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.9     |     Red      |
+|    993QAN    |  Commercial  |     BMW      | 3000 GT VR-4 |     1991     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.8     |     Red      |
+|    509XRK    |  Commercial  |     BMW      |    Dakota    |     2002     |      4       |    Manual    |    Diesel    |     True     |    False     |     45.5     |     Blue     |
+|    471XBI    |    Luxury    |     BMW      |    Tahoe     |     1996     |      8       |  Automatic   |    Petrol    |     True     |     True     |      38      |    Black     |
+|    682GWJ    |    Luxury    |     BMW      |      A4      |     1997     |      5       |    Manual    |    Petrol    |    False     |    False     |     46.1     |     Blue     |
+|    677UIA    |   Economy    |     BMW      |      S4      |     2004     |      5       |    Manual    |    Petrol    |    False     |    False     |     43.3     |     Blue     |
+|    519YUY    |    Family    |     BMW      |   Durango    |     2006     |      7       |  Automatic   |    Diesel    |     True     |     True     |     46.8     |     Blue     |
+|    567RKQ    |  Commercial  |    toyota    |    subaru    |     2001     |      4       |    Manual    |    Diesel    |    False     |    False     |     130      |    black     |
+|    876GGG    |    Luxury    |     dhdh     |   djhdjdj    |     1944     |      4       |    Manual    |    Petrol    |     True     |     True     |     120      |    black     |
+|    888AAA    |  Commercial  |     QUT      |   Express    |     1966     |      6       |  Automatic   |    Petrol    |    False     |    False     |     98.8     |    Yellow    |
+|    236SWE    |    Family    |     goop     |     goop     |     2001     |      4       |    Manual    |    Petrol    |    False     |    False     |      80      |    Black     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View Fleet
+2) Add Vehicle
+3) Edit Vehicle
+4) Delete Vehicle
+
+Jeremy Clarkson@MMRC$ 3
+
+Please enter the registration of the vehicle to edit, followed by the new data (leave blank to retain current information):
+
+Current Registration*: 236SWE
+New Registration (leave blank for current): 888AAA
+Grade:
+Make:
+Model:
+Year:
+Num Seats (2 - 10):
+Transmission (automatic or manual):
+Petrol (petrol or diesel):
+GPS (yes or no):
+Sunroof (yes or no):
+Daily Rate (eg: 50, 78.65, etc):
+Colour:
+
+Vehicle with registration 888AAA already exists. Please choose a different registration.
+
+Please select a number below:
+
+1) View Fleet
+2) Add Vehicle
+3) Edit Vehicle
+4) Delete Vehicle
+
+Jeremy Clarkson@MMRC$ 3
+
+Please enter the registration of the vehicle to edit, followed by the new data (leave blank to retain current information):
+
+Current Registration*: 236SWE
+New Registration (leave blank for current):
+Grade: commercial
+Make:
+Model:
+Year:
+Num Seats (2 - 10):
+Transmission (automatic or manual):
+Petrol (petrol or diesel):
+GPS (yes or no):
+Sunroof (yes or no):
+Daily Rate (eg: 50, 78.65, etc):
+Colour:
+
+Successfully edited vehicle 2001 goop goop (Registration = 236SWE).
+
+Please select a number below:
+
+1) View Fleet
+2) Add Vehicle
+3) Edit Vehicle
+4) Delete Vehicle
+
+Jeremy Clarkson@MMRC$ 1
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Registration |    Grade     |     Make     |    Model     |     Year     |  Num Seats   | Transmission |     Fuel     |     GPS      |   Sunroof    |  Daily Rate  |    Colour    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|    851VOJ    |   Economy    |     BMW      |  Fiero 2M4   |     1985     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.1     |    Black     |
+|    169FBE    |   Economy    |     BMW      |  Fiero 2M4   |     1985     |      2       |    Manual    |    Petrol    |    False     |    False     |     48.8     |    Black     |
+|    602VVZ    |   Economy    |     BMW      |  Fiero 2M4   |     1987     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.9     |     Red      |
+|    993QAN    |  Commercial  |     BMW      | 3000 GT VR-4 |     1991     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.8     |     Red      |
+|    509XRK    |  Commercial  |     BMW      |    Dakota    |     2002     |      4       |    Manual    |    Diesel    |     True     |    False     |     45.5     |     Blue     |
+|    471XBI    |    Luxury    |     BMW      |    Tahoe     |     1996     |      8       |  Automatic   |    Petrol    |     True     |     True     |      38      |    Black     |
+|    682GWJ    |    Luxury    |     BMW      |      A4      |     1997     |      5       |    Manual    |    Petrol    |    False     |    False     |     46.1     |     Blue     |
+|    677UIA    |   Economy    |     BMW      |      S4      |     2004     |      5       |    Manual    |    Petrol    |    False     |    False     |     43.3     |     Blue     |
+|    519YUY    |    Family    |     BMW      |   Durango    |     2006     |      7       |  Automatic   |    Diesel    |     True     |     True     |     46.8     |     Blue     |
+|    567RKQ    |  Commercial  |    toyota    |    subaru    |     2001     |      4       |    Manual    |    Diesel    |    False     |    False     |     130      |    black     |
+|    876GGG    |    Luxury    |     dhdh     |   djhdjdj    |     1944     |      4       |    Manual    |    Petrol    |     True     |     True     |     120      |    black     |
+|    888AAA    |  Commercial  |     QUT      |   Express    |     1966     |      6       |  Automatic   |    Petrol    |    False     |    False     |     98.8     |    Yellow    |
+|    236SWE    |  Commercial  |     goop     |     goop     |     2001     |      4       |    Manual    |    Petrol    |    False     |    False     |      80      |    Black     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View Fleet
+2) Add Vehicle
+3) Edit Vehicle
+4) Delete Vehicle
+
+Jeremy Clarkson@MMRC$ 3
+
+Please enter the registration of the vehicle to edit, followed by the new data (leave blank to retain current information):
+
+Current Registration*: 236SWE
+New Registration (leave blank for current):
+Grade:
+Make:
+Model:
+Year:
+Num Seats (2 - 10): 99
+Transmission (automatic or manual):
+Petrol (petrol or diesel):
+GPS (yes or no):
+Sunroof (yes or no):
+Daily Rate (eg: 50, 78.65, etc):
+Colour:
+
+Number of seats must be a number between 2 and 10.
+
+Please select a number below:
+
+1) View Fleet
+2) Add Vehicle
+3) Edit Vehicle
+4) Delete Vehicle
+
+Jeremy Clarkson@MMRC$ 1
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Registration |    Grade     |     Make     |    Model     |     Year     |  Num Seats   | Transmission |     Fuel     |     GPS      |   Sunroof    |  Daily Rate  |    Colour    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|    851VOJ    |   Economy    |     BMW      |  Fiero 2M4   |     1985     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.1     |    Black     |
+|    169FBE    |   Economy    |     BMW      |  Fiero 2M4   |     1985     |      2       |    Manual    |    Petrol    |    False     |    False     |     48.8     |    Black     |
+|    602VVZ    |   Economy    |     BMW      |  Fiero 2M4   |     1987     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.9     |     Red      |
+|    993QAN    |  Commercial  |     BMW      | 3000 GT VR-4 |     1991     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.8     |     Red      |
+|    509XRK    |  Commercial  |     BMW      |    Dakota    |     2002     |      4       |    Manual    |    Diesel    |     True     |    False     |     45.5     |     Blue     |
+|    471XBI    |    Luxury    |     BMW      |    Tahoe     |     1996     |      8       |  Automatic   |    Petrol    |     True     |     True     |      38      |    Black     |
+|    682GWJ    |    Luxury    |     BMW      |      A4      |     1997     |      5       |    Manual    |    Petrol    |    False     |    False     |     46.1     |     Blue     |
+|    677UIA    |   Economy    |     BMW      |      S4      |     2004     |      5       |    Manual    |    Petrol    |    False     |    False     |     43.3     |     Blue     |
+|    519YUY    |    Family    |     BMW      |   Durango    |     2006     |      7       |  Automatic   |    Diesel    |     True     |     True     |     46.8     |     Blue     |
+|    567RKQ    |  Commercial  |    toyota    |    subaru    |     2001     |      4       |    Manual    |    Diesel    |    False     |    False     |     130      |    black     |
+|    876GGG    |    Luxury    |     dhdh     |   djhdjdj    |     1944     |      4       |    Manual    |    Petrol    |     True     |     True     |     120      |    black     |
+|    888AAA    |  Commercial  |     QUT      |   Express    |     1966     |      6       |  Automatic   |    Petrol    |    False     |    False     |     98.8     |    Yellow    |
+|    236SWE    |  Commercial  |     goop     |     goop     |     2001     |      4       |    Manual    |    Petrol    |    False     |    False     |      80      |    Black     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View Fleet
+2) Add Vehicle
+3) Edit Vehicle
+4) Delete Vehicle
+
+Jeremy Clarkson@MMRC$ 4
+
+Please enter the registration of the vehicle you want to delete:
+
+Registration: asdfghjkl
+
+Vehicle does not exist.
+
+Please select a number below:
+
+1) View Fleet
+2) Add Vehicle
+3) Edit Vehicle
+4) Delete Vehicle
+
+Jeremy Clarkson@MMRC$ 4
+
+Please enter the registration of the vehicle you want to delete:
+
+Registration: 677UIA
+
+Successfully removed a 2004 BMW S4 with registration 677UIA from the MRRC fleet.
+
+Please select a number below:
+
+1) View Fleet
+2) Add Vehicle
+3) Edit Vehicle
+4) Delete Vehicle
+
+Jeremy Clarkson@MMRC$ 1
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Registration |    Grade     |     Make     |    Model     |     Year     |  Num Seats   | Transmission |     Fuel     |     GPS      |   Sunroof    |  Daily Rate  |    Colour    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|    851VOJ    |   Economy    |     BMW      |  Fiero 2M4   |     1985     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.1     |    Black     |
+|    169FBE    |   Economy    |     BMW      |  Fiero 2M4   |     1985     |      2       |    Manual    |    Petrol    |    False     |    False     |     48.8     |    Black     |
+|    602VVZ    |   Economy    |     BMW      |  Fiero 2M4   |     1987     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.9     |     Red      |
+|    993QAN    |  Commercial  |     BMW      | 3000 GT VR-4 |     1991     |      2       |    Manual    |    Petrol    |    False     |    False     |     37.8     |     Red      |
+|    509XRK    |  Commercial  |     BMW      |    Dakota    |     2002     |      4       |    Manual    |    Diesel    |     True     |    False     |     45.5     |     Blue     |
+|    471XBI    |    Luxury    |     BMW      |    Tahoe     |     1996     |      8       |  Automatic   |    Petrol    |     True     |     True     |      38      |    Black     |
+|    682GWJ    |    Luxury    |     BMW      |      A4      |     1997     |      5       |    Manual    |    Petrol    |    False     |    False     |     46.1     |     Blue     |
+|    519YUY    |    Family    |     BMW      |   Durango    |     2006     |      7       |  Automatic   |    Diesel    |     True     |     True     |     46.8     |     Blue     |
+|    567RKQ    |  Commercial  |    toyota    |    subaru    |     2001     |      4       |    Manual    |    Diesel    |    False     |    False     |     130      |    black     |
+|    876GGG    |    Luxury    |     dhdh     |   djhdjdj    |     1944     |      4       |    Manual    |    Petrol    |     True     |     True     |     120      |    black     |
+|    888AAA    |  Commercial  |     QUT      |   Express    |     1966     |      6       |  Automatic   |    Petrol    |    False     |    False     |     98.8     |    Yellow    |
+|    236SWE    |  Commercial  |     goop     |     goop     |     2001     |      4       |    Manual    |    Petrol    |    False     |    False     |      80      |    Black     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View Fleet
+2) Add Vehicle
+3) Edit Vehicle
+4) Delete Vehicle
+
+Jeremy Clarkson@MMRC$ p
+
+Enter a number to select a function from the list below:
+
+1) Customer Management
+2) Fleet Management
+
+Jeremy Clarkson@MMRC$ q
+
+It is sad to see you go... But don't worry - everything is being saved as we speak!
+PS C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\bin\Debug> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20200512210908
+**********************

@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MRRCManagement.Input" Collapsed="true">
+    <Position X="10.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACCAIAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Displayable\Menu\Input\Input.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.InputMenu" Collapsed="true">
+    <Position X="3" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAACACAAAgAAAAAAIBAAAAAAAAAAAAEAgA=</HashCode>
+      <FileName>Displayable\Menu\Input\InputMenu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MRRCManagement.Menu" Collapsed="true">
+    <Position X="5.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAACAAAAAAAIAAAAAAACACAAAAAAAAAEAAA=</HashCode>
+      <FileName>Displayable\Menu\Menu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MRRCManagement.MenuField" Collapsed="true">
+    <Position X="11.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Displayable\Menu\MenuField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.Option" Collapsed="true">
+    <Position X="12.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Displayable\Menu\Option\Option.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.OptionMenu" Collapsed="true">
+    <Position X="0.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAAAAQAAAAAAAAAAAgAAAABAAAACAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Displayable\Menu\Option\OptionMenu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MRRCManagement.CustomerTable" Collapsed="true">
+    <Position X="5.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAAAAAAAAAAAACAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Displayable\Table\CustomerTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.FleetTable" Collapsed="true">
+    <Position X="7.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAAAAAAAAAAAACAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Displayable\Table\FleetTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.RentalTable" Collapsed="true">
+    <Position X="9.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAAAAAAAAAAAACAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Displayable\Table\RentalTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.SearchResultTable" Collapsed="true">
+    <Position X="7.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Displayable\Table\SearchResultTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.DynamicTable&lt;T, U&gt;" Collapsed="true">
+    <Position X="7.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Displayable\Table\Strategy\DynamicTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.Table" Collapsed="true">
+    <Position X="7.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAABAAAFAAAAACAAACAAAAQAAEAEAAABEAAA=</HashCode>
+      <FileName>Displayable\Table\Strategy\Table.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MRRCManagement.AddCustomerHandler" Collapsed="true">
+    <Position X="8" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAACAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handler\AddCustomerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.AddVehicleHandler" Collapsed="true">
+    <Position X="1.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAARAAAAAAAAAAAAAAQAAAAAQAAAAAAA=</HashCode>
+      <FileName>Handler\AddVehicleHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.DeleteCustomerHandler" Collapsed="true">
+    <Position X="10.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAAAIAgAAAAA=</HashCode>
+      <FileName>Handler\DeleteCustomerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.DeleteVehicleHandler" Collapsed="true">
+    <Position X="3.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Handler\DeleteVehicleHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.EditCustomerHandler" Collapsed="true">
+    <Position X="12.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAARAACAEAAAAAAACAAEAAAgAAgAAAAA=</HashCode>
+      <FileName>Handler\EditCustomerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.EditVehicleHandler" Collapsed="true">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEAAAAAAAAARAAAAEAAAACAAAAAEAgAgAAAAAAAA=</HashCode>
+      <FileName>Handler\EditVehicleHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.RentVehicleHandler" Collapsed="true">
+    <Position X="14.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handler\RentVehicleHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.ReturnVehicleHandler" Collapsed="true">
+    <Position X="17" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handler\ReturnVehicleHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.SearchAlgorithm" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAgAAAAAAA=</HashCode>
+      <FileName>Handler\SearchVehicle\SearchAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.SearchVehicleHandler" Collapsed="true">
+    <Position X="19.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIABAAAAAAAUAAAAAAAAAAAAAAAQAACAAAAAAAAA=</HashCode>
+      <FileName>Handler\SearchVehicle\SearchVehicleHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.CustomerHandler" Collapsed="true">
+    <Position X="10.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handler\Strategy\CustomerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.Handler&lt;T, U&gt;" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAAAAAAAAAAAAAAKAAAAAAAAAAAI=</HashCode>
+      <FileName>Handler\Strategy\Handler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.RentalHandler" Collapsed="true">
+    <Position X="17" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handler\Strategy\RentalHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.VehicleHandler" Collapsed="true">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handler\Strategy\VehicleHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.Program" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.CustomerIDValidator" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Validator\CustomerIDValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.DailyRateValidator" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAEAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Validator\DailyRateValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.GPSValidator" Collapsed="true">
+    <Position X="19.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validator\GPSValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.InputInvalidException" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validator\InputInvalidException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.InputValidator" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validator\InputValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.NumDayValidator" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAACAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Validator\NumDayValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.NumSeatValidator" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAACAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Validator\NumSeatValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.OptionSelectionValidator" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAABAAACAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Validator\OptionSelectionValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.SunRoofValidator" Collapsed="true">
+    <Position X="17" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validator\SunRoofValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.VehicleRegoValidator" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAACIBAAAAAQAAAAAAAAAIAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Validator\VehicleRegoValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.YearValidator" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAACAABAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Validator\YearValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRCManagement.YesOrNoValidator" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validator\YesOrNoValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MRRCManagement.BasicDisplayable" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Displayable\BasicDisplayable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MRRCManagement.Displayable&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Displayable\Displayable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MRRCManagement.TableType" Collapsed="true">
+    <Position X="21.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQACAAA=</HashCode>
+      <FileName>Displayable\Table\Strategy\TableType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

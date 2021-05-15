@@ -1,0 +1,14 @@
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\ConsoleApp\bin\Debug\MRRC.exe
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\ConsoleApp\bin\Debug\MRRCManagement.exe
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\ConsoleApp\bin\Debug\MRRCManagement.pdb
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\ConsoleApp\bin\Debug\MRRCManagement.exe.config
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\ConsoleApp\bin\Debug\MRRC.pdb
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\ConsoleApp\bin\Debug\MRRC.exe.config
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\ConsoleApp\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\ConsoleApp\obj\Debug\ConsoleApp.pdb

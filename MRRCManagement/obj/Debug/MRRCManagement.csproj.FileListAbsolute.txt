@@ -1,0 +1,11 @@
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csprojAssemblyReference.cache
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csproj.CoreCompileInputs.cache
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\obj\Debug\MRRCManagement.exe
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\obj\Debug\MRRCManagement.pdb
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\bin\Debug\MRRCManagement.exe.config
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\bin\Debug\MRRCManagement.exe
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\bin\Debug\MRRCManagement.pdb
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\bin\Debug\MRRC.exe
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\bin\Debug\MRRC.pdb
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\bin\Debug\MRRC.exe.config
+C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csproj.CopyComplete

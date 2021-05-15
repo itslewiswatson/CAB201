@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MRRC.EntityDTO" Collapsed="true">
+    <Position X="3.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\DTO\EntityDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.Aggregate" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\Entity\Aggregate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.Entity" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAACAAAEAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\Entity\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.EntityParser" Collapsed="true">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGBAEAAAAwAAAAEAAAAAACCAAAQAAAAAAAAAIAAI=</HashCode>
+      <FileName>Application\Parser\EntityParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.CRM" Collapsed="true">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABAAAAAAAEAQAAAAAAACAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Domain\Model\CRM\CRM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.CustomerAlreadyExistsException" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Model\CRM\CustomerAlreadyExistsException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.CustomerDoesNotExistException" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Model\CRM\CustomerDoesNotExistException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.Customer" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQABAgAAAAAAAgAAABAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Domain\Model\Customer\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.InvalidIDException" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Model\Customer\InvalidIDException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.Fleet" Collapsed="true">
+    <Position X="9.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAEAACIggAAAAAAAAAAEAAAABQABAABAgAAAAAAAAA=</HashCode>
+      <FileName>Domain\Model\Fleet\Fleet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.VehicleAlreadyExistsException" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Model\Fleet\VehicleAlreadyExistsException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.CustomerCurrentlyRentingException" Collapsed="true">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Model\Rental\CustomerCurrentlyRentingException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.Rental" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Domain\Model\Rental\Rental.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.VehicleCurrentlyRentingException" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Model\Rental\VehicleCurrentlyRentingException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.CommercialVehicle" Collapsed="true">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAABA=</HashCode>
+      <FileName>Domain\Model\Vehicle\CommercialVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.EconomyVehicle" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Domain\Model\Vehicle\EconomyVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.FamilyVehicle" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Domain\Model\Vehicle\FamilyVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.LuxuryVehicle" Collapsed="true">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAgAAAQAAA=</HashCode>
+      <FileName>Domain\Model\Vehicle\LuxuryVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.Vehicle" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kgSFAQQAAAAAAACAAEAEAAgIAAAiAAAAAAAgUAAYABA=</HashCode>
+      <FileName>Domain\Model\Vehicle\Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.CustomerDTO" Collapsed="true">
+    <Position X="1.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQABAgAAAAAAAgAAABAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Domain\Services\DTO\CustomerDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.RentalDTO" Collapsed="true">
+    <Position X="3.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Domain\Services\DTO\RentalDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.VehicleDTO" Collapsed="true">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kgSEAAQAAAAAAAAAAAAEAAgIAAACAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Domain\Services\DTO\VehicleDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.CustomerDTOProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Domain\Services\DTOProcessor\CustomerDTOProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MRRC.RentalDTOProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Domain\Services\DTOProcessor\RentalDTOProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MRRC.VehicleDTOProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAgAAACAAQAgAAAAAAAQQBAAAAAABgAAgAACCA=</HashCode>
+      <FileName>Domain\Services\DTOProcessor\VehicleDTOProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MRRC.EnumHelper" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Services\Helper\EnumHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRC.CustomerEntityParser" Collapsed="true">
+    <Position X="1.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAACACAM=</HashCode>
+      <FileName>Infrastructure\EntityParser\CustomerEntityParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MRRC.RentalEntityParser" Collapsed="true">
+    <Position X="3.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAACACAM=</HashCode>
+      <FileName>Infrastructure\EntityParser\RentalEntityParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MRRC.VehicleEntityParser" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAACACAM=</HashCode>
+      <FileName>Infrastructure\EntityParser\VehicleEntityParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MRRC.CRMRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABJAAAAAAAAAAAIAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Infrastructure\Repository\CRMRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MRRC.CRMRepositoryFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAIAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Repository\CRMRepositoryFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MRRC.FleetRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAEAAJAAAAAAAAAAAIAAEAAAAIAAAAIAAA=</HashCode>
+      <FileName>Infrastructure\Repository\FleetRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MRRC.FleetRepositoryFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAkAAEAAAAAAAAAAAAAAAACAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Repository\FleetRepositoryFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MRRC.Program" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MRRC.DTOPrcocessor&lt;T, P&gt;" Collapsed="true">
+    <Position X="15.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Application\DTO\DTOProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MRRC.TypedEntityParser&lt;T&gt;" Collapsed="true">
+    <Position X="19" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAACACAE=</HashCode>
+      <FileName>Application\Parser\TypedEntityParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MRRC.Repository&lt;T, U&gt;" Collapsed="true">
+    <Position X="9.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Infrastructure\Repository\Strategy\Repository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MRRC.RepositoryFactoryStrategy&lt;T, E&gt;" Collapsed="true">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Repository\Strategy\RepositoryFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MRRC.RepositoryStrategy" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Repository\Strategy\RepositoryStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MRRC.Gender" Collapsed="true">
+    <Position X="17.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Domain\Model\Customer\Gender.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MRRC.VehicleGrade" Collapsed="true">
+    <Position X="20.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAAABAA=</HashCode>
+      <FileName>Domain\Model\Vehicle\VehicleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MRRC.TransmissionType" Collapsed="true">
+    <Position X="19" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Model\Vehicle\VehicleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MRRC.FuelType" Collapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Model\Vehicle\VehicleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

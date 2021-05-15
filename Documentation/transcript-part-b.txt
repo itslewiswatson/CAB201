@@ -1,0 +1,416 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200612201021
+Username: NOKIZORQUE-PC\lewis
+RunAs User: NOKIZORQUE-PC\lewis
+Configuration Name: 
+Machine: NOKIZORQUE-PC (Microsoft Windows NT 10.0.19640.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 11248
+PSVersion: 5.1.19640.1
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19640.1
+BuildVersion: 10.0.19640.1
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is transcript.txt
+PS C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\bin\Debug> .\MRRCManagement.exe
+MATES RATES RENT-A-CAR
+Where you rent a car for cheap and don't even need to return it with a full tank
+
+Press 'q' to quit and save. Press 'h' to go home to the main menu. Press 'p' to go to the parent menu.
+
+Let's begin, what's your name?
+$ lewis
+
+Welcome to MMRC, lewis
+
+Using default customer file in data directory...
+Using default vehicle file in data directory...
+Using default rental file in data directory...
+
+Enter a number to select a function from the list below:
+
+1) Customer Management
+2) Fleet Management
+3) Rental Management
+
+lewis@MMRC$ 3
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 1
+
+--------------------------------------------------
+| Registration  |  Customer ID  |  Daily Rate   |
+--------------------------------------------------
+|    602VVZ     |       0       |     37.9      |
+|    677UIA     |       6       |      n/a      |
+|    471XBI     |       2       |      38       |
+|    851VOJ     |       3       |     37.1      |
+|    236SWE     |      666      |      80       |
+--------------------------------------------------
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 2
+
+Please enter your search query:
+
+Search*: Blue
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Registration |    Grade     |     Make     |    Model     |     Year     |  Num Seats   | Transmission |     Fuel     |     GPS      |   Sunroof    |  Daily Rate  |    Colour    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|    509XRK    |  Commercial  |     BMW      |    Dakota    |     2002     |      4       |    Manual    |    Diesel    |     True     |    False     |     45.5     |     Blue     |
+|    682GWJ    |    Luxury    |     BMW      |      A4      |     1997     |      5       |    Manual    |    Petrol    |    False     |    False     |     46.1     |     Blue     |
+|    519YUY    |    Family    |     BMW      |   Durango    |     2006     |      7       |  Automatic   |    Diesel    |     True     |     True     |     46.8     |     Blue     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 2
+
+Please enter your search query:
+
+Search*: Blue OR 4-seater
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Registration |    Grade     |     Make     |    Model     |     Year     |  Num Seats   | Transmission |     Fuel     |     GPS      |   Sunroof    |  Daily Rate  |    Colour    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|    509XRK    |  Commercial  |     BMW      |    Dakota    |     2002     |      4       |    Manual    |    Diesel    |     True     |    False     |     45.5     |     Blue     |
+|    567RKQ    |  Commercial  |    toyota    |    subaru    |     2001     |      4       |    Manual    |    Diesel    |    False     |    False     |     130      |    black     |
+|    876GGG    |    Luxury    |     dhdh     |   djhdjdj    |     1944     |      4       |    Manual    |    Petrol    |     True     |     True     |     120      |    black     |
+|    682GWJ    |    Luxury    |     BMW      |      A4      |     1997     |      5       |    Manual    |    Petrol    |    False     |    False     |     46.1     |     Blue     |
+|    519YUY    |    Family    |     BMW      |   Durango    |     2006     |      7       |  Automatic   |    Diesel    |     True     |     True     |     46.8     |     Blue     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 2
+
+Please enter your search query:
+
+Search*: "Fiero 2M4"
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Registration |    Grade     |     Make     |    Model     |     Year     |  Num Seats   | Transmission |     Fuel     |     GPS      |   Sunroof    |  Daily Rate  |    Colour    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|    169FBE    |   Economy    |     BMW      |  Fiero 2M4   |     1985     |      2       |    Manual    |    Petrol    |    False     |    False     |     48.8     |    Black     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 2
+
+Please enter your search query:
+
+Search*: (Blue ANd Manual)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Registration |    Grade     |     Make     |    Model     |     Year     |  Num Seats   | Transmission |     Fuel     |     GPS      |   Sunroof    |  Daily Rate  |    Colour    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|    509XRK    |  Commercial  |     BMW      |    Dakota    |     2002     |      4       |    Manual    |    Diesel    |     True     |    False     |     45.5     |     Blue     |
+|    682GWJ    |    Luxury    |     BMW      |      A4      |     1997     |      5       |    Manual    |    Petrol    |    False     |    False     |     46.1     |     Blue     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 2
+
+Please enter your search query:
+
+Search*: (Blue AND Manual) OR Diesel
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Registration |    Grade     |     Make     |    Model     |     Year     |  Num Seats   | Transmission |     Fuel     |     GPS      |   Sunroof    |  Daily Rate  |    Colour    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|    509XRK    |  Commercial  |     BMW      |    Dakota    |     2002     |      4       |    Manual    |    Diesel    |     True     |    False     |     45.5     |     Blue     |
+|    519YUY    |    Family    |     BMW      |   Durango    |     2006     |      7       |  Automatic   |    Diesel    |     True     |     True     |     46.8     |     Blue     |
+|    567RKQ    |  Commercial  |    toyota    |    subaru    |     2001     |      4       |    Manual    |    Diesel    |    False     |    False     |     130      |    black     |
+|    682GWJ    |    Luxury    |     BMW      |      A4      |     1997     |      5       |    Manual    |    Petrol    |    False     |    False     |     46.1     |     Blue     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 2
+
+Please enter your search query:
+
+Search*: Manual AND Diesel OR (GPS AND (Blue AND Sunroof))
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Registration |    Grade     |     Make     |    Model     |     Year     |  Num Seats   | Transmission |     Fuel     |     GPS      |   Sunroof    |  Daily Rate  |    Colour    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|    519YUY    |    Family    |     BMW      |   Durango    |     2006     |      7       |  Automatic   |    Diesel    |     True     |     True     |     46.8     |     Blue     |
+|    509XRK    |  Commercial  |     BMW      |    Dakota    |     2002     |      4       |    Manual    |    Diesel    |     True     |    False     |     45.5     |     Blue     |
+|    567RKQ    |  Commercial  |    toyota    |    subaru    |     2001     |      4       |    Manual    |    Diesel    |    False     |    False     |     130      |    black     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 3
+
+Please enter the information of the vehicle and customer you want to rent to:
+
+Customer ID*: 666
+Registration*: 567RKQ
+Number of days*: 22
+
+Rent 567RKQ to slslsl slslsl (ID: 666) for 22 days.
+This vehicle has a daily cost of $130, bringing the total to $2860.00.
+
+Confirm you want to go ahead with this rental (y/n): y
+
+A customer with ID 666 is already renting vehicle 236SWE
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 1
+
+--------------------------------------------------
+| Registration  |  Customer ID  |  Daily Rate   |
+--------------------------------------------------
+|    602VVZ     |       0       |     37.9      |
+|    677UIA     |       6       |      n/a      |
+|    471XBI     |       2       |      38       |
+|    851VOJ     |       3       |     37.1      |
+|    236SWE     |      666      |      80       |
+--------------------------------------------------
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 3
+
+Please enter the information of the vehicle and customer you want to rent to:
+
+Customer ID*: 734
+Registration*: 888AAA
+Number of days*: 4
+
+Rent 888AAA to Lewis Watson (ID: 734) for 4 days.
+This vehicle has a daily cost of $98.8, bringing the total to $395.20.
+
+Confirm you want to go ahead with this rental (y/n): y
+
+Successfully rented a 1966 QUT Express to Lewis Watson (ID: 734)
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 1
+
+--------------------------------------------------
+| Registration  |  Customer ID  |  Daily Rate   |
+--------------------------------------------------
+|    602VVZ     |       0       |     37.9      |
+|    677UIA     |       6       |      n/a      |
+|    471XBI     |       2       |      38       |
+|    851VOJ     |       3       |     37.1      |
+|    236SWE     |      666      |      80       |
+|    888AAA     |      734      |     98.8      |
+--------------------------------------------------
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 4
+
+Enter the registration of the vehicle to return:
+
+Registration*: 236SWE
+
+Successfully returned vehicle 236SWE to the fleet. It can now be rented to other customers.
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 1
+
+--------------------------------------------------
+| Registration  |  Customer ID  |  Daily Rate   |
+--------------------------------------------------
+|    602VVZ     |       0       |     37.9      |
+|    677UIA     |       6       |      n/a      |
+|    471XBI     |       2       |      38       |
+|    851VOJ     |       3       |     37.1      |
+|    888AAA     |      734      |     98.8      |
+--------------------------------------------------
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 4
+
+Enter the registration of the vehicle to return:
+
+Registration*: 236SWE
+
+Vehicle 236SWE is not currently being rented. No need to return it.
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 3
+
+Please enter the information of the vehicle and customer you want to rent to:
+
+Customer ID*: 69
+Registration*: 888AAA
+Number of days*: 09
+
+Customer with ID = '69' does not exist.
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 4
+
+Enter the registration of the vehicle to return:
+
+Registration*: fff
+
+Please use a registration like 236WVO or 353JAA (consisting of 3 numbers followed by 3 capital letters).
+
+Enter a number to select a function from the list below:
+
+1) Customer Management
+2) Fleet Management
+3) Rental Management
+
+lewis@MMRC$ 3
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 3
+
+Please enter the information of the vehicle and customer you want to rent to:
+
+Customer ID*: hdhsdhs
+
+Customer ID is not numeric. Please enter a whole number.
+
+Enter a number to select a function from the list below:
+
+1) Customer Management
+2) Fleet Management
+3) Rental Management
+
+lewis@MMRC$ 3
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$ 1
+
+--------------------------------------------------
+| Registration  |  Customer ID  |  Daily Rate   |
+--------------------------------------------------
+|    602VVZ     |       0       |     37.9      |
+|    677UIA     |       6       |      n/a      |
+|    471XBI     |       2       |      38       |
+|    851VOJ     |       3       |     37.1      |
+|    888AAA     |      734      |     98.8      |
+--------------------------------------------------
+
+Please select a number below:
+
+1) View Rentals
+2) Search Vehicle
+3) Rent Vehicle
+4) Return Vehicle
+
+lewis@MMRC$
+PS C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\bin\Debug> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\lewis\OneDrive\QUT\2020 Semester 1\CAB201 - Programming Principles\MRRC\MRRCManagement\bin\Debug> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20200612201326
+**********************
